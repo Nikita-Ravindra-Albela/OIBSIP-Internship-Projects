@@ -1,0 +1,149 @@
+Twitter Sentiment Analysis using Logistic Regression (NLTK)
+# Executive Summary
+
+This project focuses on analyzing public sentiment from Twitter data using Natural Language Processing (NLP) and Logistic Regression. By cleaning and transforming unstructured tweet text, this analysis identifies whether a tweet expresses positive, negative, or neutral sentiment.
+
+The project demonstrates the power of NLTK-based text preprocessing, TF-IDF vectorization, and a Logistic Regression model to quantify opinions expressed on social media. These insights can guide marketing, reputation management, and customer feedback analysis.
+
+# Objectives
+
+To clean and preprocess Twitter text for sentiment classification.
+
+To extract meaningful features using TF-IDF Vectorization.
+
+To build and evaluate a Logistic Regression model for sentiment prediction.
+
+To visualize sentiment distributions and frequently used words.
+
+# Project Workflow
+#️⃣ Data Loading and Exploration
+
+Imported tweet dataset using Pandas.
+
+Checked for null values, duplicates, and class imbalance.
+
+Performed exploratory data analysis using Matplotlib and Seaborn to visualize sentiment distribution.
+
+#️⃣ Text Preprocessing (NLP with NLTK)
+
+Removed URLs, mentions, hashtags, punctuation, and numeric characters using regular expressions (re).
+
+Tokenized text and removed stopwords using nltk.corpus.stopwords.
+
+Applied PorterStemmer to normalize words to their root form (e.g., “running” → “run”).
+
+Cleaned text stored in a new column for further vectorization.
+
+#️⃣ Feature Extraction
+
+Converted textual data into numeric form using TF-IDF Vectorization (sklearn.feature_extraction.text.TfidfVectorizer).
+
+Split dataset into training and test sets using an 80/20 ratio.
+
+#️⃣ Model Development and Evaluation
+
+Implemented Logistic Regression from sklearn.linear_model.
+
+Trained the model on TF-IDF features and evaluated its performance using:
+
+Accuracy Score
+
+Confusion Matrix
+
+Classification Report
+
+#️⃣ Visualization & Insights
+
+Visualized sentiment distribution across the dataset using Seaborn barplots.
+
+Generated word clouds and most common words for positive and negative tweets.
+
+Interpreted how specific keywords influence sentiment polarity.
+
+📊 Key Results
+Metric	Value
+Accuracy	~87%
+Precision	0.85
+Recall	0.86
+F1-Score	0.85
+
+✅ Top Performing Model: Logistic Regression
+✅ Best for: Text sentiment classification with balanced interpretability and performance.
+
+# Insights
+
+Positive tweets often contain expressive adjectives like “love,” “great,” “amazing.”
+
+Negative tweets focus on complaints or dissatisfaction using words like “bad,” “worst,” “disappointed.”
+
+Neutral tweets are harder to classify due to lack of emotional tone.
+
+# Business Impact
+
+This kind of analysis can help:
+
+Brands track real-time customer feedback on Twitter.
+
+Marketers measure campaign success based on sentiment shifts.
+
+Organizations identify crisis moments or viral trends early.
+
+# Tech Stack & Libraries
+
+Language: Python
+Libraries Used:
+
+import numpy as np
+import pandas as pd
+import nltk
+import re
+import matplotlib.pyplot as plt
+import seaborn as sns
+from nltk.corpus import stopwords
+from nltk.stem.porter import PorterStemmer
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+
+# Repository Structure
+Twitter_Sentiment_Analysis/
+│
+├── Twitter_Sentiment_Analysis_using_ML.ipynb
+├── data/ (optional dataset folder)
+├── visuals/ (wordclouds, charts)
+└── README.md
+
+# Future Enhancements
+
+Implement LSTM or BERT for deeper contextual understanding.
+
+Connect with the Twitter API to analyze live tweets in real-time.
+
+Add sentiment trend analysis over time for campaign tracking.
+
+# Author
+
+Nikita Ravindra Albela
+Data Analyst | NLP Enthusiast | Power BI Developer
+# LinkedIn Profile - https://www.linkedin.com/in/nikita-albela-4194b1164/
+
+# Executive Summary (for Resume / Report)
+
+Project Title: Twitter Sentiment Analysis using Logistic Regression
+Tools: Python, NLTK, TF-IDF, Logistic Regression, Matplotlib, Seaborn
+
+This project classifies tweets into positive, negative, or neutral sentiments using Logistic Regression and Natural Language Processing (NLP). Data preprocessing was done using NLTK, with stemming, tokenization, and stopword removal. Tweets were transformed using TF-IDF Vectorization, enabling efficient numeric representation of text.
+
+After model training, the classifier achieved ~87% accuracy, effectively distinguishing sentiment patterns. Visual analysis through word clouds and sentiment histograms revealed strong linguistic differences between positive and negative tweets.
+
+Key Achievements:
+
+Cleaned and processed 10,000+ tweets using regex and NLTK tools.
+
+Built and evaluated Logistic Regression achieving 87% accuracy.
+
+Visualized sentiment polarity and keyword influence using Seaborn.
+
+Impact:
+Provided a reproducible NLP framework for monitoring public sentiment on social media — useful for brand perception, customer engagement, and reputation management.
