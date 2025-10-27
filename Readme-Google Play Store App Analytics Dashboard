@@ -26,7 +26,7 @@ The dashboard consists of multiple interactive visual sections designed to explo
 
 #️⃣ Overview Page
 
-High-level KPIs: Total Apps, Average Rating, Total Reviews, and Total Installs.
+High-level KPIs: Total Apps, Total Free Apps, Total Paid Apps, Total Category, Total Genre, Average Rating, Average Review & Average Reveiw per App.
 
 Segmentation by App Type (Free vs Paid) and Content Rating (Everyone, Teen, Mature).
 
@@ -36,13 +36,13 @@ Slicers for Category, Genre, and Rating Range.
 
 Bar chart of Top 10 Categories by Average Rating.
 
-Distribution of apps across categories to highlight over/underrepresented segments.
+Distribution of apps across categories to highlight over & underrepresented segments.
 
 Comparison between category popularity and average installs.
 
 #️⃣ Rating & Review Analysis
 
-Scatter plots showing the relationship between Ratings, Reviews, and Installs.
+Scatter plots showing the relationship between Ratings and Reviews.
 
 KPI cards showing Average Reviews per App and Average Rating per App Type.
 
