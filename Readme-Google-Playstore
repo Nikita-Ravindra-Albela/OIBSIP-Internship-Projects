@@ -1,0 +1,139 @@
+Google Playstore Data Analysis Dashboard (Power BI Project)
+📌 Project Overview
+
+This project presents an in-depth data analysis of the Google Play Store to understand how different factors — such as app category, price type, user ratings, and reviews — influence app performance. The Power BI dashboard highlights key patterns in app ratings, user engagement, and free vs paid app distribution, providing valuable insights into market behavior and opportunities for app developers.
+
+🎯 Objective
+
+To analyze and visualize app performance data from the Google Playstore dataset using Power BI, identifying trends in:
+
+App ratings across categories
+
+Free vs. paid app performance
+
+Number of reviews and user engagement over time
+
+Relationship between genres and user satisfaction
+
+🗂️ Dataset Source
+
+Source: Kaggle (Google Play Store Dataset)
+
+Data Type: Public dataset containing app details such as category, genre, price, rating, and number of reviews
+
+Size: ~10,000 app records
+
+Format: CSV file
+
+🧮 Data Preparation
+
+Initial data cleaning and transformation were performed in Microsoft Excel, followed by modeling and visualization in Power BI.
+
+Key Data Cleaning Steps (Excel):
+
+Removed duplicates and invalid entries
+
+Handled missing ratings and review counts
+
+Standardized category and genre names
+
+Filtered out irrelevant or incomplete records
+
+Power BI Processing:
+
+Imported cleaned dataset
+
+Created DAX measures for:
+
+Total Apps
+
+Total Free Apps & Paid Apps
+
+Average Rating
+
+Average Reviews per App
+
+Churn and Rating Distributions
+
+Designed interactive visuals with slicers and filters by category, genre, and app type.
+
+📊 Dashboard Metrics and KPIs
+
+The dashboard provides insights through the following visuals:
+
+Metric	Description
+Total Apps	Total number of apps analyzed (~7,000)
+Total Free vs. Paid Apps	Distribution of free (6,000+) vs paid (541) apps
+Average Rating	Overall user rating across apps (~4.2)
+Average Reviews per App	~145K average reviews
+Top 10 Categories by Average Rating	Personalization, Games, Sports, Family, and Medical lead with ratings above 4.2
+Top 10 Genres by Total Ratings	Tools, Entertainment, and Education dominate
+Free vs. Paid App Distribution by Genre	Majority of apps across all genres are free
+Total Reviews by Year Updated	Significant rise in review counts post-2016, peaking in 2018
+💡 Key Insights
+
+Based on the analysis and dashboard visuals:
+
+Free apps dominate the Play Store, representing nearly 92% of total apps, while paid apps make up a small fraction (~8%).
+
+Average user rating stands at 4.2, indicating overall strong user satisfaction.
+
+Personalization and Game apps receive the highest average ratings (4.3–4.2), reflecting user preference for entertainment and customization features.
+
+Tools, Entertainment, and Education genres have the highest total number of ratings, showing large active user bases.
+
+User reviews increased sharply between 2016 and 2018, suggesting the surge of smartphone app adoption during this period.
+
+Paid apps tend to have slightly higher average ratings, indicating better perceived quality, though fewer in number.
+
+Most app categories maintain consistent performance trends, implying competitive parity within major genres.
+
+🧰 Tools & Technologies
+
+Excel – Data cleaning, preprocessing, and formatting
+
+Power BI – Dashboard creation, data visualization, and DAX calculations
+
+DAX (Data Analysis Expressions) – For KPI measures and calculated fields
+
+🧩 Key Skills Demonstrated
+
+Data Cleaning and Preparation (Excel)
+
+Data Modeling in Power BI
+
+DAX Formulas for Metrics and KPIs
+
+Data Visualization & Storytelling
+
+Analytical Interpretation of Business Trends
+
+📈 Business Impact
+
+This dashboard helps app developers, marketers, and product managers:
+
+Identify which categories or genres attract more users.
+
+Evaluate how pricing models (free vs paid) affect downloads and user engagement.
+
+Track rating trends and review activity to guide app improvement and marketing strategies.
+
+🗂️ Project Structure
+├── Google Playstore.pbix         # Power BI Dashboard File
+├── Dataset/                      # Cleaned CSV dataset (optional)
+├── README.md                     # Project documentation
+└── Screenshots/                  # Dashboard screenshots for reference
+
+🏁 Conclusion
+
+The Google Playstore Dashboard provides a holistic view of app market trends, revealing how user preferences, pricing, and ratings shape success in the mobile app ecosystem. This project demonstrates strong analytical, technical, and visualization skills aligned with real-world business intelligence needs.
+
+👩‍💻 Author
+
+Nikita Ravindra Albela
+Aspiring Data Analyst | Power BI | SQL | Excel | Python
+[LinkedIn Profile] | [GitHub Profile] (Add links here)
+
+✨ Executive Summary (For Resume / Interview)
+
+Developed a Google Playstore Analysis Dashboard in Power BI to evaluate app performance across categories, pricing models, and ratings. Cleaned and prepared data using Excel, then built interactive visuals using DAX. Key findings show free apps dominate the market (92%), with Personalization and Games achieving top ratings (4.3+). User engagement surged post-2016, highlighting the mobile app boom. Demonstrated expertise in data visualization, KPI tracking, and insight generation to support product strategy and business decisions.
