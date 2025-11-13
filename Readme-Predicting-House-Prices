@@ -69,7 +69,10 @@ Jupyter Notebook
 
 #  Results
 
-Model R² Score: ~0.85 (approximate, based on standard dataset outcomes).
+MSE: 2292721545725.3662
+RMSE: 1514173.5520
+MAE: 1127483.3523
+R-squared: 0.5464
 
 Predictive performance verified through residual and scatter plots.
 
